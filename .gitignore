@@ -3,27 +3,22 @@ build/
 dist/
 *.spec
 
-# Executables
+# Installer output
+installer_output/
 *.exe
-*.pkg
 
-# Python
-.venv/
+# Virtual env
 venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+.venv/
+
+# Database
 *.db
+*.sqlite3
 
 # Node
 frontend/node_modules/
 frontend/dist/
 
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
+# Logs
+*.log
+debug.txt
