@@ -1,11 +1,15 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
 # PyInstaller
 build/
 dist/
 *.spec
 
-# Installer output
-installer_output/
+# Installer
 *.exe
+installer_output/
 
 # Virtual env
 venv/
@@ -15,7 +19,7 @@ venv/
 *.db
 *.sqlite3
 
-# Node
+# Frontend
 frontend/node_modules/
 frontend/dist/
 
