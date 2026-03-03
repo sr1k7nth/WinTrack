@@ -37,13 +37,13 @@ The application monitors active window usage and provides:
 
 ## Features
 - Real-time application usage tracking
+- Automatic detection of inactive/idle time with smart handling
+- Customizable inactive time threshold
 - Daily usage breakdown
-- Weekly usage trends (Line charts)
-- Monthly summaries
-- Also detects inactive time and handle's it smartly
-- In app update notifications
-- System Tray integration
-
+- Weekly usage trends (interactive line charts)
+- Monthly productivity summaries
+- In-app update notifications
+- System tray integration for background operation
 ---
 
 ## Screenshots
