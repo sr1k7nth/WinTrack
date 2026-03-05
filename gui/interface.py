@@ -77,9 +77,6 @@ class ButtonHolder(QMainWindow):
         btn_resume = QPushButton("Resume Tracking")
         btn_resume.clicked.connect(self.handle_resume)
 
-        btn_start = QPushButton("Start Tracking Again")
-        btn_start.clicked.connect(self.handle_start)
-
         btn_settings = QPushButton("Change Threshold Time")
         btn_settings.clicked.connect(self.handle_threshold)
 
@@ -91,7 +88,6 @@ class ButtonHolder(QMainWindow):
         layout = QVBoxLayout()
         layout.addWidget(btn_pause)
         layout.addWidget(btn_resume)
-        layout.addWidget(btn_start)
         layout.addWidget(btn_reset)
         layout.addWidget(btn_viewStats)
         layout.addWidget(btn_settings)
